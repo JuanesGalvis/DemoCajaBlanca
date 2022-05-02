@@ -1,0 +1,16 @@
+{
+  "name": "democajablanca",
+  "version": "1.0.0",
+  "description": "Demostración de pruebas de caja blanca (Asignatura: Pruebas y gestión de la configuración)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Juan Esteban Galvis Bedoya - Santiago Restrepo Idárraga - Miguel Ángel Bedoya Bonilla",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "28.0.3"
+  }
+}

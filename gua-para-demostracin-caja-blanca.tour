@@ -1,0 +1,32 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Guía para demostración: Caja Blanca",
+  "steps": [
+    {
+      "file": "package.json",
+      "description": "El programa utiliza la librería 'Jest', por lo cual es necesario ejecutar en la terminal el comando: `npm install` para instalar las librerías",
+      "line": 14
+    },
+    {
+      "file": "index.js",
+      "description": "Este es el código que vamos a probar (en la presentación se mostró el proceso de transformarlo a un grafo de flujo, calcular su complejidad y caminos básicos)",
+      "line": 1
+    },
+    {
+      "file": "test/index.test.js",
+      "description": "Aquí encontrarás todos los test unitarios (cada camino posible para probar el método). Puedes eliminar algunos para luego ver el tema de la cobertura o ejecutar los que quieras para ver su funcionamiento (✅ todos deben pasar correctamente)",
+      "line": 4
+    },
+    {
+      "file": "package.json",
+      "description": "Para ejecutar las pruebas del paso anterior debes ejecutar este comando en la terminal: `npm run test`",
+      "line": 7
+    },
+    {
+      "file": "package.json",
+      "description": "Para mirar la cobertura (si dejaste los 8 test tendrá una cobertura del 100%, si eliminas algunos podrás ver cómo Jest te muestra las partes del código que no son probadas por ningún test) debes ejecutar este comando: `npm run coverage`",
+      "line": 8
+    }
+  ],
+  "ref": "master"
+}
