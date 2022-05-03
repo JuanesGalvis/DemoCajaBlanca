@@ -12,4 +12,4 @@
 
 3. Abrir el archivo del tour mediante el panel de la extensión (en el tour se explica qué comando ejecutar para la instalación y ejecución)
 
-![](./gu%C3%ADa/ImagenTutorial%231.png)
+![](./gu%C3%ADa/ImagenTutorial%232.png)
